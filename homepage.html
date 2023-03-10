@@ -70,21 +70,32 @@
       </nav>
 
       <section id="filters">
-        <div class="container d-flex gap-5 px-4 py-3">
-          <h2 class="fw-semibold">TV Shows</h2>
-          <div class="dropdown border border-white">
-            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Genres
-            </button>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item active" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Separated link</a></li>
-            </ul>
+        <nav class="navbar px-5 py-3">
+          <div class="d-flex gap-5 align-items-center">
+            <h2 class="fw-semibold">TV Shows</h2>
+            <div class="dropdown">
+              <button
+                class="btn btn-dark dropdown-toggle border border-white rounded-1"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Genres
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item active" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+            </div>
           </div>
-        </div>
+          <div id="filter-wrapper" class="d-flex align-items-center">
+            <i class="bi bi-filter-left border fs-6 px-3"></i>
+            <i class="bi bi-grid-fill border fs-6 px-3"></i>
+          </div>
+        </nav>
       </section>
     </div>
     <script
