@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <div class="main-wrapper bg-dark">
+    <div class="main-wrapper bg-dark text-light">
       <nav class="navbar navbar-expand-lg navbar-dark px-4">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="img/netflix_logo.png" alt="Netflix Logo" width="148px" /></a>
@@ -34,7 +34,7 @@
               </li>
             </ul>
           </div>
-          <div id="right-icons" class="text-light d-flex gap-3 align-items-center">
+          <div id="right-icons" class="d-flex gap-3 align-items-center">
             <i class="bi bi-search"></i>
             <span>KIDS</span>
             <i class="bi bi-bell-fill"></i>
@@ -68,6 +68,24 @@
           </div>
         </div>
       </nav>
+
+      <section id="filters">
+        <div class="container d-flex gap-5 px-4 py-3">
+          <h2 class="fw-semibold">TV Shows</h2>
+          <div class="dropdown border border-white">
+            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Genres
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item active" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
