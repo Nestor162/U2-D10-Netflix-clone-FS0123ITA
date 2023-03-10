@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="dist/css/style.min.css" />
+    <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+  </head>
+
+  <body>
+    <div id="main-wrapper" class="bg-dark text-light">
+      <nav class="navbar navbar-expand-lg navbar-dark px-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/netflix_logo.png" alt="Netflix Logo" width="148px" /></a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">TV Shows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recenty Added</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My list</a>
+              </li>
+            </ul>
+          </div>
+          <div id="right-icons" class="d-flex gap-3 align-items-center">
+            <i class="bi bi-search"></i>
+            <span>KIDS</span>
+            <i class="bi bi-bell-fill"></i>
+            <div class="dropdown">
+              <button
+                class="btn btn-dark dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="img/avatar.png" alt="User Avatar" width="48px" />
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark position-absolute">
+                <li>
+                  <a class="dropdown-item" href="#"
+                    ><img src="img/kids_icon.png" alt="User Avatar" width="48px" /> Kids</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Manage Profiles</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="profile.html">Account</a></li>
+                <li><a class="dropdown-item" href="#">Help Center</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Sign out of netflix</a></li>
+              </ul>
+            </div>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
