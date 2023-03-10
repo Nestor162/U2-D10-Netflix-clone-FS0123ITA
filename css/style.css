@@ -13330,19 +13330,20 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 #main-wrapper {
   overflow-x: hidden;
 }
 
 #right-icons ul {
   left: -84px;
-}
-
-footer div div ul li {
-  list-style-type: none;
-}
-footer div div ul li a {
-  text-decoration: none;
 }
 
 #username {
