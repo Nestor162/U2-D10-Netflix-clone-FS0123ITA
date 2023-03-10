@@ -1,7 +1,26 @@
 @import "override";
 
+#main-wrapper {
+  overflow-x: hidden;
+}
+
 #right-icons {
   ul {
     left: -84px;
+  }
+}
+
+footer {
+  div {
+    div {
+      ul {
+        li {
+          list-style-type: none;
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
   }
 }
