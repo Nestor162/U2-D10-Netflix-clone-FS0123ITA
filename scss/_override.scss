@@ -12,8 +12,10 @@ $spacers: (
   4: $spacer * 1.5,
   4alt: $spacer * 2.6,
   5: $spacer * 3,
+  6: $spacer * 3.5,
   7: $spacer * 4,
-  8: $spacer * 15,
+  big: $spacer * 8,
+  bigger: $spacer * 15,
 );
 
 @import "bootstrap/variables";
