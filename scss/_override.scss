@@ -20,6 +20,10 @@ $spacers: (
   huge: $spacer * 25,
 );
 
+.lett-spa {
+  letter-spacing: 3px;
+}
+
 @import "bootstrap/variables";
 
 // Componenti obbligatori
