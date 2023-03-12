@@ -28,6 +28,17 @@ $spacers: (
   font-size: 0.6rem;
 }
 
+@mixin make-container($max) {
+  width: 100%;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.custom-container {
+  @include make-container(500px);
+}
+
 @import "bootstrap/variables";
 
 // Componenti obbligatori
