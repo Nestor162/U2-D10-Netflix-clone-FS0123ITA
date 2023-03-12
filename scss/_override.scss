@@ -30,13 +30,17 @@ $spacers: (
 
 @mixin make-container($max) {
   width: 100%;
-  max-width: 500px;
+  max-width: $max;
   margin-right: auto;
   margin-left: auto;
 }
 
 .custom-container {
   @include make-container(500px);
+}
+
+.footer-container {
+  @include make-container(860px);
 }
 
 @import "bootstrap/variables";
